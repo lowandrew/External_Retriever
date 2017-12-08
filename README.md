@@ -7,7 +7,6 @@ To run:
 - Go to where you want to download this automator
 - `git clone this_repository`
 - `cd this_repository`
-- In `ExternalRetriever.py`, line 121, change `username` to your FTP username and `password` to your FTP password
 - `source /mnt/nas/Virtual_Environments/Generic_Redmine/bin/activate`
 - `python ExternalRetriever_Run.py`
 - You'll be asked for a bunch of parameters. You should be safe hitting enter and leaving them at defaults.

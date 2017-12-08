@@ -3,12 +3,14 @@ import os
 
 class CustomValues:
     # Config file default value, displayed to the user when asked for input
-    value_name = 'custom_value_name'
+    ftp_password = 'password'
+    ftp_user = 'username'
 
 
 class CustomKeys:
     # Default key that will be used to access that value in the Config file
-    key_name = 'custom_key_name'
+    ftp_user = 'ftp_username'
+    ftp_password = 'ftp_password'
 
 
 class UtilityMethods:
